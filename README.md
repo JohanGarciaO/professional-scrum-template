@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/banner.png" alt="Professional Scrum Template">
+</p>
+
 # Professional Scrum Template
 
 > A technology-agnostic repository template that teaches software engineering principles and provides a professional Scrum-based foundation for starting software projects.
@@ -123,6 +127,8 @@ Break your product into features and user stories.
 ### 6. Start Sprint 1
 
 Plan your first Sprint and begin development.
+
+> **Note:** This repository is intended to be used as a GitHub Template. After creating your own project, review the inherited `README.md`, `LICENSE`, and repository branding to match your project's identity.
 
 ---
 
