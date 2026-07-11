@@ -66,33 +66,35 @@ Typical readiness criteria include:
 
 A Product Backlog Item is considered **Ready** when:
 
-- [ ] The business objective is clearly described.
+- [ ] The goal is clearly defined.
+- [ ] The description provides enough context for implementation.
 - [ ] Acceptance Criteria have been defined.
-- [ ] Business rules are documented.
+- [ ] Implementation notes have been documented when necessary.
 - [ ] Dependencies have been identified.
 - [ ] External blockers have been resolved.
 - [ ] The item has been estimated.
-- [ ] The team understands the expected outcome.
+- [ ] Questions and ambiguities have been resolved.
 - [ ] The Product Owner agrees that the item is ready for development.
 
 ---
 
-## Example
+## Example Product Backlog Item
 
-### User Story
+### Goal
 
-> As a travel agent, I want to authenticate using my Google account so that I can securely access the platform.
+> Allow users to authenticate using Google OAuth.
 
 ### Ready Checklist
 
-- ☑ Business objective clearly defined.
-- ☑ Acceptance Criteria documented.
-- ☑ OAuth provider identified.
-- ☑ UI prototype available.
-- ☑ Database impact analyzed.
-- ☑ Dependencies identified.
-- ☑ Story estimated at 5 Story Points.
-- ☑ Team has no outstanding questions.
+- ☑ The goal is clearly defined.
+- ☑ The description provides enough context for implementation.
+- ☑ Acceptance Criteria have been defined.
+- ☑ Implementation notes have been documented.
+- ☑ Dependencies have been identified.
+- ☑ External blockers have been resolved.
+- ☑ The item has been estimated at 5 Story Points.
+- ☑ Questions and ambiguities have been resolved.
+- ☑ The Product Owner agrees that the item is ready for development.
 
 Result:
 

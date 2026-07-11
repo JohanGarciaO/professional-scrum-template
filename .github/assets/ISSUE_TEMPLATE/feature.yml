@@ -1,0 +1,105 @@
+name: Feature Request
+description: Create a new Product Backlog Item for a feature.
+title: "[Feature]: "
+labels: ["feature"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+
+        Complete this form to create a Product Backlog Item (PBI).
+
+        Before submitting, ensure the proposed feature provides a clear objective, sufficient context, and can satisfy the project's Definition of Ready.
+
+  - type: input
+    id: goal
+    attributes:
+      label: Goal
+      description: Describe the primary objective of this Product Backlog Item.
+      placeholder: Allow users to authenticate using Google OAuth.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain the problem, provide context, and describe the value this feature delivers.
+      placeholder: |
+        Describe:
+        - What should be developed.
+        - Why this feature is needed.
+        - What value it delivers.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Define objective and verifiable conditions that determine when this feature is considered complete.
+      placeholder: |
+        - [ ] Users can authenticate using Google.
+        - [ ] Invalid authentication attempts are handled.
+        - [ ] Session is created successfully.
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation-notes
+    attributes:
+      label: Implementation Notes
+      description: Include technical considerations, constraints, architectural decisions, or implementation guidance when applicable.
+      placeholder: |
+        Optional:
+        - Related ADR
+        - Existing services
+        - Technical constraints
+        - Security considerations
+    validations:
+      required: false
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: List any Product Backlog Items, systems, or external resources required before implementation.
+      placeholder: |
+        Example:
+        - User entity must exist.
+        - OAuth credentials available.
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Additional References
+      description: Add links or references that may help implementation.
+      placeholder: |
+        Example:
+        - Figma
+        - ADR
+        - API Documentation
+        - RFC
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: definition-of-ready
+    attributes:
+      label: Definition of Ready
+      description: Confirm that this Product Backlog Item satisfies the project's Definition of Ready.
+      options:
+        - label: The goal is clearly defined.
+          required: true
+        - label: The description provides enough context.
+          required: true
+        - label: Acceptance Criteria have been defined.
+          required: true
+        - label: Dependencies have been identified.
+          required: true
+        - label: Questions and ambiguities have been resolved.
+          required: true
