@@ -1,0 +1,55 @@
+name: Documentation
+description: Propose documentation additions or improvements.
+title: "[Docs]: "
+labels: ["documentation"]
+
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Provide a concise summary of the proposed documentation change.
+      placeholder: Briefly describe the documentation proposal.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the proposed documentation change and provide any relevant context.
+      placeholder: Explain what should be documented or improved.
+    validations:
+      required: true
+
+  - type: textarea
+    id: affected-documentation
+    attributes:
+      label: Affected Documentation
+      description: Identify which documentation should be created, updated, or improved.
+      placeholder: |
+        Examples:
+        - README.md
+        - CONTRIBUTING.md
+        - ADRs
+        - Architecture documentation
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-improvement
+    attributes:
+      label: Suggested Improvement
+      description: Describe your proposed documentation improvement.
+      placeholder: Explain how the documentation could be created or improved.
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Provide any relevant references, if applicable.
+      placeholder: Links, related issues, documents, discussions...
+    validations:
+      required: false
