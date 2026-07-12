@@ -1,0 +1,65 @@
+name: Bug Report
+description: Report a software defect.
+title: "[Bug]: "
+labels: ["bug"]
+
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Bug Summary
+      description: Provide a concise summary of the reported bug.
+      placeholder: Briefly describe the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug and provide any relevant context.
+      placeholder: Explain what happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Describe the steps required to reproduce the issue.
+      placeholder: |
+        1. Go to...
+        2. Click on...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen.
+      placeholder: Explain the expected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: Describe what actually happened.
+      placeholder: Explain the observed behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide environment details only if necessary to reproduce the issue.
+      placeholder: |
+        Browser:
+        Operating System:
+        Device:
+    validations:
+      required: false
