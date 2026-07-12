@@ -50,20 +50,21 @@ The DoD is applied continuously throughout the project whenever a Product Backlo
 
 A good Definition of Done should contain objective, measurable, and verifiable quality criteria.
 
-Every completed Product Backlog Item should satisfy every criterion without exception.
+Every completed Product Backlog Item should satisfy every criterion defined by the project's Definition of Done.
 
 Avoid including project-specific implementation details that only apply to a single feature.
 
-Instead, define standards that represent the expected quality level for every deliverable.
+Instead, define objective quality standards that establish a shared understanding of when a Product Backlog Item can be considered complete.
 
 Typical completion criteria include:
 
-- Code has been reviewed.
-- Automated tests are passing.
-- Documentation has been updated.
-- No critical defects remain.
 - Acceptance Criteria have been satisfied.
-- The Increment is potentially releasable.
+- Code has been reviewed.
+- Applicable automated tests are passing.
+- The implemented functionality has been validated.
+- Documentation has been updated.
+- The code follows the project's coding standards.
+- The completed work has been approved.
 
 ---
 
@@ -73,12 +74,11 @@ A Product Backlog Item is considered **Done** when:
 
 - [ ] All Acceptance Criteria have been satisfied.
 - [ ] Code has been reviewed.
-- [ ] Automated tests are passing.
-- [ ] No critical defects remain.
+- [ ] Applicable automated tests are passing.
+- [ ] The implemented functionality has been validated.
 - [ ] Documentation has been updated.
 - [ ] Code follows the project's coding standards.
-- [ ] The solution has been integrated successfully.
-- [ ] The Product Owner accepts the completed work.
+- [ ] The completed work has been approved.
 
 ---
 
@@ -90,14 +90,13 @@ A Product Backlog Item is considered **Done** when:
 
 ### Done Checklist
 
-- ☑ All Acceptance Criteria satisfied.
-- ☑ Code reviewed through Pull Request.
-- ☑ Unit tests passing.
-- ☑ Integration tests passing.
-- ☑ Documentation updated.
-- ☑ ESLint reports no errors.
-- ☑ Feature successfully deployed to the staging environment.
-- ☑ Product Owner approved the implementation.
+- ☑ All Acceptance Criteria have been satisfied.
+- ☑ Code has been reviewed.
+- ☑ Applicable automated tests are passing.
+- ☑ The implemented functionality has been validated.
+- ☑ Documentation has been updated.
+- ☑ Code follows the project's coding standards.
+- ☑ The completed work has been approved.
 
 Result:
 
