@@ -95,11 +95,19 @@ body:
       options:
         - label: The goal is clearly defined.
           required: true
-        - label: The description provides enough context.
+        - label: The description provides enough context for implementation.
           required: true
         - label: Acceptance Criteria have been defined.
           required: true
+        - label: Implementation notes have been documented when necessary.
+          required: true
         - label: Dependencies have been identified.
           required: true
+        - label: External blockers have been resolved.
+          required: true
+        - label: The item has been estimated.
+          required: true
         - label: Questions and ambiguities have been resolved.
+          required: true
+        - label: The Product Owner agrees that the item is ready for development.
           required: true
