@@ -4,13 +4,6 @@ title: "[Refactor]: "
 labels: ["refactor"]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Use this form to propose improvements to the project's internal structure.
-
-        Refactoring should improve maintainability, readability, consistency, or code quality without changing the software's external behavior.
-
   - type: input
     id: summary
     attributes:

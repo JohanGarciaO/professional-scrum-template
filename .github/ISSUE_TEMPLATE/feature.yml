@@ -4,15 +4,6 @@ title: "[Feature]: "
 labels: ["feature"]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Feature Request
-
-        Complete this form to create a Product Backlog Item (PBI).
-
-        Before submitting, ensure the proposed feature provides a clear objective, sufficient context, and can satisfy the project's Definition of Ready.
-
   - type: input
     id: goal
     attributes:
