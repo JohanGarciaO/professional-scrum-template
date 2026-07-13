@@ -58,7 +58,7 @@ body:
       label: Dependencies
       description: List any Product Backlog Items, systems, or external resources required before implementation.
       placeholder: |
-        Example:
+        Examples:
         - User entity must exist.
         - OAuth credentials available.
     validations:
@@ -67,10 +67,10 @@ body:
   - type: textarea
     id: references
     attributes:
-      label: Additional References
+      label: References
       description: Add links or references that may help implementation.
       placeholder: |
-        Example:
+        Examples:
         - Figma
         - ADR
         - API Documentation
