@@ -85,20 +85,20 @@ body:
       description: Confirm that this Product Backlog Item satisfies the project's Definition of Ready.
       options:
         - label: The goal is clearly defined.
-          required: true
+          required: false
         - label: The description provides enough context for implementation.
-          required: true
+          required: false
         - label: Acceptance Criteria have been defined.
-          required: true
+          required: false
         - label: Implementation notes have been documented when necessary.
-          required: true
+          required: false
         - label: Dependencies have been identified.
-          required: true
+          required: false
         - label: External blockers have been resolved.
-          required: true
+          required: false
         - label: The item has been estimated.
-          required: true
+          required: false
         - label: Questions and ambiguities have been resolved.
-          required: true
+          required: false
         - label: The Product Owner agrees that the item is ready for development.
-          required: true
+          required: false
