@@ -1,0 +1,69 @@
+name: Refactor
+description: Propose improvements to the project's internal structure without changing its external behavior.
+title: "[Refactor]: "
+labels: ["refactor"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to propose improvements to the project's internal structure.
+
+        Refactoring should improve maintainability, readability, consistency, or code quality without changing the software's external behavior.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Provide a short title describing the refactoring proposal.
+      placeholder: Simplify authentication service responsibilities
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-situation
+    attributes:
+      label: Current Situation
+      description: Describe the current implementation and why it can be improved.
+      placeholder: Explain the current structure, limitations, or technical problems.
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement-proposal
+    attributes:
+      label: Improvement Proposal
+      description: Describe the proposed structural improvements.
+      placeholder: Explain how the code or project structure should be improved.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-benefits
+    attributes:
+      label: Expected Benefits
+      description: Explain the expected improvements resulting from this refactoring.
+      placeholder: Improved readability, maintainability, consistency, reduced complexity, or code reuse.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Identify the parts of the project expected to be affected.
+      placeholder: Modules, directories, components, documentation, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Additional References
+      description: Link any related ADRs, Research documents, Issues, or other relevant documentation.
+      placeholder: |
+        - ADR-0003...
+        - RESEARCH-0002...
+        - #15
+    validations:
+      required: false
