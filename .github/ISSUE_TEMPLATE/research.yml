@@ -1,0 +1,41 @@
+name: Research
+description: Propose a research activity to reduce uncertainties or support technical decisions.
+title: "[Research]: "
+labels: ["research"]
+
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Provide a concise summary of the research topic.
+      placeholder: Briefly describe the research proposal.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the context and explain why this research is necessary.
+      placeholder: Explain the problem, uncertainty, or decision that motivates this research.
+    validations:
+      required: true
+
+  - type: textarea
+    id: research-objectives
+    attributes:
+      label: Research Objectives
+      description: List the questions, uncertainties, comparisons, or decisions that this research should address.
+      placeholder: Describe what this research should answer or clarify.
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Provide any relevant references, if applicable.
+      placeholder: Articles, documentation, discussions, benchmarks, related issues...
+    validations:
+      required: false
