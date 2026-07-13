@@ -1,18 +1,9 @@
-name: Feature Request
+name: Feature
 description: Create a new Product Backlog Item for a feature.
-title: "[Feature]: "
+title: ""
 labels: ["feature"]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Feature Request
-
-        Complete this form to create a Product Backlog Item (PBI).
-
-        Before submitting, ensure the proposed feature provides a clear objective, sufficient context, and can satisfy the project's Definition of Ready.
-
   - type: input
     id: goal
     attributes:
@@ -67,7 +58,7 @@ body:
       label: Dependencies
       description: List any Product Backlog Items, systems, or external resources required before implementation.
       placeholder: |
-        Example:
+        Examples:
         - User entity must exist.
         - OAuth credentials available.
     validations:
@@ -76,10 +67,10 @@ body:
   - type: textarea
     id: references
     attributes:
-      label: Additional References
+      label: References
       description: Add links or references that may help implementation.
       placeholder: |
-        Example:
+        Examples:
         - Figma
         - ADR
         - API Documentation
@@ -94,20 +85,20 @@ body:
       description: Confirm that this Product Backlog Item satisfies the project's Definition of Ready.
       options:
         - label: The goal is clearly defined.
-          required: true
+          required: false
         - label: The description provides enough context for implementation.
-          required: true
+          required: false
         - label: Acceptance Criteria have been defined.
-          required: true
+          required: false
         - label: Implementation notes have been documented when necessary.
-          required: true
+          required: false
         - label: Dependencies have been identified.
-          required: true
+          required: false
         - label: External blockers have been resolved.
-          required: true
+          required: false
         - label: The item has been estimated.
-          required: true
+          required: false
         - label: Questions and ambiguities have been resolved.
-          required: true
+          required: false
         - label: The Product Owner agrees that the item is ready for development.
-          required: true
+          required: false

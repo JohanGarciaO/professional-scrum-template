@@ -1,6 +1,6 @@
-name: Bug Report
+name: Bug
 description: Report a software defect.
-title: "[Bug]: "
+title: ""
 labels: ["bug"]
 
 body:
