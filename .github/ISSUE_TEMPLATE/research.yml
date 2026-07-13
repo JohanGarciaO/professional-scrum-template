@@ -1,6 +1,5 @@
 name: Research
 description: Propose a research activity to reduce uncertainties or support technical decisions.
-title: ""
 labels: ["research"]
 
 body:
