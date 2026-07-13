@@ -1,6 +1,6 @@
 name: Feature Request
 description: Create a new Product Backlog Item for a feature.
-title: "[Feature]: "
+title: ""
 labels: ["feature"]
 
 body:

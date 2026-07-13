@@ -1,6 +1,6 @@
 name: Documentation
 description: Propose documentation additions or improvements.
-title: "[Docs]: "
+title: ""
 labels: ["documentation"]
 
 body:
