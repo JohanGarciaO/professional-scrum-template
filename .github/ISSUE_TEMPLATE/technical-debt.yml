@@ -1,0 +1,71 @@
+name: Technical Debt
+description: Propose work to resolve a consciously deferred technical improvement.
+labels: ["technical-debt"]
+
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Provide a concise summary of the Technical Debt.
+      placeholder: Separate authentication logic from persistence layer.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the Technical Debt and explain why it exists.
+      placeholder: Explain the deferred technical work and provide the necessary context.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason-for-deferral
+    attributes:
+      label: Reason for Deferral
+      description: Explain why this work was consciously postponed.
+      placeholder: Time constraints, delivery priorities, external dependencies, temporary workaround, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Describe the consequences of leaving this Technical Debt unresolved.
+      placeholder: Increased maintenance effort, reduced readability, architectural limitations, performance impact, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repayment-proposal
+    attributes:
+      label: Repayment Proposal
+      description: Describe what should be implemented to eliminate this Technical Debt.
+      placeholder: Explain the expected implementation or improvement.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Identify the parts of the project expected to be affected.
+      placeholder: Modules, directories, services, components, documentation, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link any documentation, ADRs, Research documents, related issues, or external resources.
+      placeholder: |
+        - ADR-0002...
+        - RESEARCH-0003...
+        - Related Issue
+        - External documentation
+    validations:
+      required: false
