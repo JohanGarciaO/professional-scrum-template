@@ -59,11 +59,11 @@ Whenever concrete examples are necessary, they illustrate only one possible impl
 ## What this template provides
 
 - Scrum-oriented project structure.
-- Documentation templates.
+- Software engineering documentation templates.
 - Product management artifacts.
 - Definition of Ready.
 - Definition of Done.
-- GitHub Issues templates.
+- GitHub Issues Forms.
 - Pull Request template.
 - ADR (Architecture Decision Records).
 - Recommended GitHub Projects workflow.
@@ -91,9 +91,8 @@ Those decisions belong to the project that uses this template.
 ```text
 .github/
 docs/
-README.md
-CONTRIBUTING.md
 LICENSE
+README.md
 ```
 
 ---
@@ -146,11 +145,10 @@ This template evolves incrementally.
 
 Future versions may include:
 
-- Improved documentation.
-- Additional Issue templates.
-- Project examples.
-- Best practices.
-- Community contributions.
+- Additional engineering documentation.
+- Practical project examples.
+- New software engineering best practices.
+- Community-driven improvements.
 
 ---
 
